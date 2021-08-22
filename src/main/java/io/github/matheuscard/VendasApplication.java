@@ -26,17 +26,7 @@ public class VendasApplication {
 //    public VendasApplication(String applicationName) {
 //        this.applicationName = applicationName;
 //    }
-
-    @Gato
-    private Animal animal;
-
-    @Bean
-    public CommandLineRunner executar(){
-        return args -> {
-            this.animal.fazerBarulho();
-        };
-    }
-
+    
     @GetMapping("/hello")
     public String helloWorld(){
         return applicationName;
