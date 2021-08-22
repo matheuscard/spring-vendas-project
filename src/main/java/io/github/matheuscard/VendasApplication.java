@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 //gerenciados pelo IOC.(Apenas a titulo didatico, pois essa forma nao e produtiva, uma vez que
 // o IOC gerencia todas as classes com as anotacoes apartir do pacote em que contem a classe anotada
 // com SpringBootApplication.)
-@ComponentScan(basePackages = {"com.umaoutrabiblioteca.projeto","io.github.matheuscard"})
+//@ComponentScan(basePackages = {"com.umaoutrabiblioteca.projeto","io.github.matheuscard"})
 @RestController
 public class VendasApplication {
 
